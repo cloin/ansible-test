@@ -1,0 +1,5 @@
+---
+- name: Test setup
+  hosts: all
+  tasks:
+  
