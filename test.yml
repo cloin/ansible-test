@@ -2,4 +2,8 @@
 - name: Test setup
   hosts: all
   tasks:
-  
+
+  tasks:
+  - name: debug
+    ansible.builtin.debug:
+    var: body
